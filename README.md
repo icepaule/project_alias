@@ -52,7 +52,7 @@ cd seeed-voicecard && sudo ./install.sh
 Install **Tensorflow** and **Keras**:
 
 ```
-sudo apt-get install python3-dev python3-pip git libatlas-base-dev 
+sudo apt-get install python3-dev python3-pip git libatlas-base-dev **gfortran**
 sudo pip3 install tensorflow keras 
 ```
 
