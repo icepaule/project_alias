@@ -62,6 +62,10 @@ Install the required modules:
 sudo apt-get install python3-numpy python3-spidev python-h5py
 sudo apt-get install python3-pyaudio libsdl-ttf2.0-0 python3-pygame 
 sudo pip3 install flask flask_socketio python_speech_features
+
+While having troubles installing scipy the above way, I've activated the deb-src in /apt/sources.list and installed:
+sudo apt-get build-dep python-scipy
+
 ```
 
 Clone the **Alias** project: 
